@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
-    "eslint fix": "eslint --fix",
-    "eslint": "eslint" 
+    "sass": "sass scss/main.scss scss/main.css --watch"
   },
   "repository": {
     "type": "git",
