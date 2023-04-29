@@ -1,3 +1,1 @@
-import { asd } from "./modules/alets";
-
-asd();
+import Button from './modules/Button';

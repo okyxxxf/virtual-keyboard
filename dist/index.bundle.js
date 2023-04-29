@@ -16,17 +16,17 @@
   \******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_alets__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/alets */ \"./modules/alets.js\");\n\r\n\r\n(0,_modules_alets__WEBPACK_IMPORTED_MODULE_0__.asd)();\n\n//# sourceURL=webpack://virtual-keyboard/./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_Button__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/Button */ \"./modules/Button.js\");\n\n\n\n//# sourceURL=webpack://virtual-keyboard/./index.js?");
 
 /***/ }),
 
-/***/ "./modules/alets.js":
-/*!**************************!*\
-  !*** ./modules/alets.js ***!
-  \**************************/
+/***/ "./modules/Button.js":
+/*!***************************!*\
+  !*** ./modules/Button.js ***!
+  \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"asd\": () => (/* binding */ asd)\n/* harmony export */ });\nfunction asd(){\r\n    alert(\"asda\");\r\n}\n\n//# sourceURL=webpack://virtual-keyboard/./modules/alets.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Button)\n/* harmony export */ });\nclass Button {\n  constructor(height, width, value, color, secondValue = null) {\n    this.height = height;\n    this.width = width;\n    this.value = value;\n    this.color = color;\n    this.secondValue = secondValue;\n  }\n\n  createButton() {\n    const button = document.createElement('div');\n    button.style.height = this.height;\n    button.style.width = this.width;\n\n    return button;\n  }\n}\n\n\n//# sourceURL=webpack://virtual-keyboard/./modules/Button.js?");
 
 /***/ })
 

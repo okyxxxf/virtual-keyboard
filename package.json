@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode development" 
+    "build": "webpack --mode development",
+    "eslint fix": "eslint --fix",
+    "eslint": "eslint" 
   },
   "repository": {
     "type": "git",
