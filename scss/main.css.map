@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["layout/_textarea.scss","page/_main.-page.scss","vendor/_normalize.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;ACHJ;EACI;EACA;EACA;EACA;EACA;;;ACLJ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EAOI;EACA;;;AAGJ;EACI;EACA;EACA","file":"main.css"}
