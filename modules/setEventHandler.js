@@ -204,6 +204,7 @@ export default function setEventHandler() {
         }, 200);
         break;
       case 'Alt':
+        e.preventDefault();
         searchKey(e.key).classList.add('active');
         setTimeout(() => {
           searchKey(e.key).classList.remove('active');
