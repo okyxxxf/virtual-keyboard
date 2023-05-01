@@ -2,10 +2,17 @@
   display: none;
 }
 
+.button {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 20px;
+}
+
 .keyboard {
   display: flex;
   flex-direction: column;
   border: 2px solid black;
+  margin-top: 4px;
 }
 
 .firstStroke,
@@ -16,7 +23,7 @@
   display: flex;
   gap: 8px;
   width: 960px;
-  margin: 4px 4px;
+  padding: 4px 4px;
   justify-content: space-between;
 }
 
