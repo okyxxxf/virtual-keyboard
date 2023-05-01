@@ -8,6 +8,10 @@
   font-size: 20px;
 }
 
+.active {
+  background-color: rgb(50, 50, 50);
+}
+
 .keyboard {
   display: flex;
   flex-direction: column;
@@ -31,9 +35,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
   border-radius: 6px;
   border: black 1px solid;
+  transition: 1s;
+}
+
+.button:not(.active) {
+  background-color: gray;
+}
+
+.button > .lang:has(:not(.hidden)) {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .firstStroke .button:nth-child(14) {

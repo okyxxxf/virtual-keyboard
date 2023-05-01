@@ -30,7 +30,9 @@ export default class Button {
     button.className = 'button';
 
     const ru = document.createElement('span');
+    ru.className = 'lang';
     const eng = document.createElement('span');
+    eng.className = 'lang';
 
     const caseDownRu = document.createElement('span');
     caseDownRu.className = 'caseDownRu';
