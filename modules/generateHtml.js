@@ -7,6 +7,9 @@ export default function generateHtml() {
   const sectionTextarea = document.createElement('section');
   sectionTextarea.className = 'textarea';
 
+  const hint = document.createElement('p');
+  hint.innerText = 'Клавиатура выполненна на системе Windows. Для переключения языка нажмите alt + ctr';
+
   const header = document.createElement('h1');
   header.className = 'header';
   header.innerText = 'Виртуальная клавиатура windows';
@@ -24,5 +27,6 @@ export default function generateHtml() {
   sectionTextarea.append(textarea);
 
   main.append(sectionKeyboard);
+  main.append(hint);
   body.append(main);
 }
