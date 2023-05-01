@@ -1,0 +1,20 @@
+.keyboard{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.firstStroke,
+.secondStroke,
+.thirdStroke,
+.fourthStroke,
+.fifthStroke {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

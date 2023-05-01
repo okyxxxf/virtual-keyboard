@@ -9,7 +9,7 @@ export default function generateHtml() {
 
   const header = document.createElement('h1');
   header.className = 'header';
-  header.innerText = 'Виртуальная клавиатура windows'
+  header.innerText = 'Виртуальная клавиатура windows';
 
   const textarea = document.createElement('textarea');
   textarea.rows = 16;
@@ -20,9 +20,9 @@ export default function generateHtml() {
 
   main.append(sectionTextarea);
 
-  sectionTextarea.append(header);  
+  sectionTextarea.append(header);
   sectionTextarea.append(textarea);
-  
+
   main.append(sectionKeyboard);
   body.append(main);
 }

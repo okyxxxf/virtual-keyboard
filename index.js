@@ -1,4 +1,7 @@
-import Button from './modules/Button';
+import generateKeyboard from './modules/generateKeyboard';
 import generateHtml from './modules/generateHtml';
 
-generateHtml();
+window.onload = () => {
+  generateHtml();
+  generateKeyboard();
+};

@@ -11,7 +11,10 @@ export default class Button {
     const button = document.createElement('div');
     button.style.height = this.height;
     button.style.width = this.width;
-
+    button.style.backgroundColor = this.color;
+    button.className = "button";
+    button.innerText = this.value;
+    
     return button;
   }
 }
